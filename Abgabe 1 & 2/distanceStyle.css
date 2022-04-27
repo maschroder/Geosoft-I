@@ -1,0 +1,12 @@
+h1 {
+    color: rgb(46, 129, 207);
+    text-align: center;
+}
+ul li::before {
+    content: "•";
+    color: red;
+    display: inline-block;
+    width: 1.2em;
+    margin-left: -0.9em;
+}
+
