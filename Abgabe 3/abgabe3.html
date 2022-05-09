@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>GeoSoftware Abgabe 2 & 3</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+  <script src="script.js"></script>
+  <script src="Bushaltestelle.js"></script>
+
+  <div class="a" align="center">
+  <h1>GeoSoftware1 Abgabe 3</h1>
+
+
+
+  <h1>Abgabe 3</h1>
+
+
+  <div id="location">
+    <h2>Münsteraner Haltestellen und ihre Entfernungen zu diesem Punkt:</h2>
+  <button onclick="getLocation()">Wo bin ich?</button>
+  </div>
+
+  <br>
+  
+    <br>
+   <div id="BushaltestellenButton">
+    <h2>Nächste Abfahrt an der nächstgelegenden Haltestelle und Tabelle mit allen anderen Bushaltestellen in Münster</h2>
+    <button type="button" onclick="showStops()">Show Me!</button>
+   </div>
+
+<br>
+
+  
+  <br>
+
+  <table id="resultTable" style="width:75%" align="center" >
+    <tr>
+      <th>Koordinaten</td>
+      <th>Haltestelle</td>
+      <th>Entfernung in Metern</td>
+    </tr>
+  </table>
+
+  </div>
+
+
+   
+
+ 
+
+</body>
+</html>
